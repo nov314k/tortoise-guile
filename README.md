@@ -1,6 +1,4 @@
-This is the code that I used to reproduce the results shown in [Tutorial Introduction to Guile](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html). I used Guile 2.0 on Cygwin.
-
-There were several small changes that I had to make, as per the notes below.
+This is the code that I used to reproduce the results shown in [Tutorial Introduction to Guile](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html). I used Guile 2.0 on Cygwin. I had to make some small changes in the tutorial code, as per the notes below.
 
 - Note 1
 
@@ -33,4 +31,4 @@ Function `register_functions` is no longer needed.
 
 Screenshot of the result is shown below.
 
-[screenshot](/screenshot.png "Result from Guile")
+![screenshot](/screenshot.png "Result from Guile")
