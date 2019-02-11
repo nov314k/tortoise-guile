@@ -1,8 +1,8 @@
-This is the code that I used to reproduce the results shown in [Tutorial Introduction to Guile](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html). I used Guile 2.0 on Cygwin. I had to make some small changes in the tutorial code, as per the notes below.
+This is the code that I used to reproduce the results of the [Tutorial Introduction to Guile](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html). I used Guile 2.0 on Cygwin. I had to make some small changes in the tutorial code, as per the notes below.
 
 - Note 1
 
-In `main`, instead of having
+In the `main` function, instead of having
 ```
 scm_with_guile (&register_functions, NULL);
 scm_shell (argc, argv);
@@ -16,7 +16,7 @@ See [Section 5.2.2 of the Guile Reference Manual](https://www.gnu.org/software/g
 
 - Note 2
 
-There should be an `inner_main` function, which in it has
+I also had an `inner_main` function, which in it had
 ```
 scm_c_define_gsubr ("tortoise-reset", 0, 0, 0, tortoise_reset);
 scm_c_define_gsubr ("tortoise-penup", 0, 0, 0, tortoise_penup);
@@ -27,7 +27,7 @@ scm_c_define_gsubr ("tortoise-move", 1, 0, 0, tortoise_move);
 
 - Note 3
 
-Function `register_functions` is no longer needed.
+I no longer needed the `register_functions` function.
 
 Screenshot of the result is shown below.
 
