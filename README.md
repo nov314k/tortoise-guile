@@ -32,3 +32,13 @@ I no longer needed the `register_functions` function.
 Screenshot of the result is shown below.
 
 ![screenshot](/screenshot.png "Result from Guile")
+
+Packages that I have installed:
+
+- guile2.0: GNU Scheme interpreter library (2.0.14-3)
+- libguile2.0_22: GNU Scheme interpreter library (2.0.14-3)
+- libguile2.0-devel: GNU Scheme interpreter library (2.0.14-3)
+- gmp: Library for arbitrary precision arithmetic
+- libgmp10: Library for arbitrary precision arithmetic (C runtime)
+- libgmp-devel: Library for arbitrary precision arithmetic (development)
+
