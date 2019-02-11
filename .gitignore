@@ -1,0 +1,7 @@
+_ignum/
+*~
+*.o
+*.exe
+*.c.backup
+*.c.preindent
+*.exe.stackdump
