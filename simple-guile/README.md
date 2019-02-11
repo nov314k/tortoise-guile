@@ -7,9 +7,9 @@ gcc -o simple-guile.exe simple-guile.c `pkg-config --cflags --libs guile-2.0`
 
 Results that I get:
 
-![screenshot-0](/screenshot-0.png)
+![screenshot-0](/simple-guile/screenshot-0.png)
 
-![screenshot-1](/screenshot-1.png)
+![screenshot-1](/simple-guile/screenshot-1.png)
 
 
 
